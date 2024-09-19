@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @page {
+        size: a4 portrait;
+        margin: 0;
+    }
+
+    html {
+        @apply text-sm;
+        @apply md:text-base;
+        @apply 2k:text-xl;
+        @apply print:text-base;
+    }
+}
+
+@layer component {
+
+}

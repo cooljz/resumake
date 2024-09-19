@@ -1,0 +1,6 @@
+export {default as Who} from './Who'
+export {default as Section} from './Section'
+export {default as Experience} from './Experience'
+export {default as Education} from './Education'
+export {default as Summary} from './Summary'
+export {default as Skills} from './Skills'
